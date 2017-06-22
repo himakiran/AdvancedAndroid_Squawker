@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
 
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -43,4 +44,10 @@ dependencies {
     // to send a notification to your app using the Firebase console. The app must be in the
     // background!
 
+    compile 'com.google.firebase:firebase-messaging:10.2.0'
+
 }
+
+apply plugin: 'com.google.gms.google-services'
+
+
