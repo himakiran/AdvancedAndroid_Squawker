@@ -13,7 +13,7 @@
 
     <SwitchPreferenceCompat
         android:defaultValue="@bool/follow_default_message_subscription"
-        android:key="@string/follow_key_switch_asser"
+        android:key="key_asser"
         android:summaryOff="@string/follow_summary_not_following"
         android:summaryOn="@string/follow_summary_following"
         android:title="@string/follow_title_switch_asser" />
